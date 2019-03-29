@@ -1,0 +1,20 @@
+Thursday, 3/28/2019
+
+I want to publish my notes on VuePress to github.  Created repo vuepress-toolbox on git, cloned it to my Mac.
+
+Now to populate the project with my markdown files. Done.  New dir docs under the project--this will be where the build to html points to.  Created .vuepress dir and added config.js. Ran vuepress dev to verify my site so far.
+
+Updated the base field in my config.js to "/vuepress-toolbox/" to match my repo name.
+
+Now using utilities to prepare the HTML static files and uploading them to git.
+
+     vuepress build -d docs  
+     git add -A
+     git commit -m "initial upload"
+     git push origin master
+
+Updating github settings for vuepress-toolbox repo to serve the github pages from the docs folder. The URL will be:
+
+     https://tomlamphier.github.io/vuepress-toolbox
+
+It's working!
