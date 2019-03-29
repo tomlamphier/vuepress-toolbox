@@ -24,3 +24,4 @@ Updated the publish doc with the above info.
 // to do
 1.  Review and revise the vuepress-toolbox site 2 or 3 go-rounds.
 2.  Clean up old vuepress stuff.
+3.  Add note under publish to rebuild the docs when you make a change and before    uploading.
